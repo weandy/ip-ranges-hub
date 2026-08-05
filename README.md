@@ -17,19 +17,19 @@
 
 ```bash
 # 纯 CDN 段（最适合：排除 CDN 后定位真实 IP / 防火墙放行 CDN）
-curl -sO https://raw.githubusercontent.com/<你的用户名>/ip-ranges-hub/main/cdn.txt
-curl -sO https://raw.githubusercontent.com/<你的用户名>/ip-ranges-hub/main/cdn_ipv4.txt  # 仅 IPv4
-curl -sO https://raw.githubusercontent.com/<你的用户名>/ip-ranges-hub/main/cdn_ipv6.txt  # 仅 IPv6
+curl -sO https://raw.githubusercontent.com/weandy/ip-ranges-hub/main/cdn.txt
+curl -sO https://raw.githubusercontent.com/weandy/ip-ranges-hub/main/cdn_ipv4.txt  # 仅 IPv4
+curl -sO https://raw.githubusercontent.com/weandy/ip-ranges-hub/main/cdn_ipv6.txt  # 仅 IPv6
 
 # CDN + AWS 全量（含 AWS 所有云段）
-curl -sO https://raw.githubusercontent.com/<你的用户名>/ip-ranges-hub/main/cdn_aws.txt
-curl -sO https://raw.githubusercontent.com/<你的用户名>/ip-ranges-hub/main/cdn_aws_ipv4.txt
+curl -sO https://raw.githubusercontent.com/weandy/ip-ranges-hub/main/cdn_aws.txt
+curl -sO https://raw.githubusercontent.com/weandy/ip-ranges-hub/main/cdn_aws_ipv4.txt
 
 # 云服务商全量段
-curl -sO https://raw.githubusercontent.com/<你的用户名>/ip-ranges-hub/main/cloud.txt
+curl -sO https://raw.githubusercontent.com/weandy/ip-ranges-hub/main/cloud.txt
 
 # 并集
-curl -sO https://raw.githubusercontent.com/<你的用户名>/ip-ranges-hub/main/all.txt
+curl -sO https://raw.githubusercontent.com/weandy/ip-ranges-hub/main/all.txt
 ```
 
 每行一个 CIDR，纯文本格式，可直接喂给 `iptables`、`nginx allow`、Go/Python 程序。
@@ -41,7 +41,7 @@ curl -sO https://raw.githubusercontent.com/<你的用户名>/ip-ranges-hub/main/
 | Cloudflare | CDN | 官方 `cloudflare.com/ips-v4` + `ips-v6` | 官方纯文本 |
 | Fastly | CDN | 官方 API `api.fastly.com/public-ip-list` | 官方 JSON |
 | Gcore | CDN | 官方 API `api.gcore.com/cdn/public-ip-list` | 官方 JSON |
-| Akamai | CDN | RIPE ASN × 39 | 官方无公开 CDN 列表，用完整 ASN 集合（排除 Linode） |
+| Akamai | CDN | RIPE ASN × 38 | 官方无公开 CDN 列表，用完整 ASN 集合（排除 Linode） |
 | Bunny / CDN77 | CDN | RIPE ASN | 无官方源 |
 | AWS CloudFront | CDN | 官方 `ip-ranges.json` 按 `service=CLOUDFRONT` 等切 | 只收 CDN 服务段 |
 | Azure Front Door | CDN | 官方 Service Tags 按 `AzureFrontDoor` tag 切 | 只收 CDN 服务段 |
@@ -67,7 +67,7 @@ Google 官方 `cloud.json` 的 `service` 字段目前只有统一的 `"Google Cl
 
 ### 关于 Akamai
 
-Akamai 官方不提供公开 CDN IP 列表。本仓库采用 taythebot/cdn-ranges 整理的 **25 个 Akamai ASN** 的 RIPE 广播前缀，覆盖比单 AS20940 全面得多。
+Akamai 官方不提供公开 CDN IP 列表。本仓库采用 taythebot/cdn-ranges 整理的 **38 个 Akamai ASN**（39 个中排除 AS63949/Linode VPS 业务）的 RIPE 广播前缀，覆盖比单 AS20940 全面得多。
 
 ## 本地运行
 
