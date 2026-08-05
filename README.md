@@ -9,7 +9,7 @@
 
 每个产物均有按协议拆分的 `_ipv4.txt` / `_ipv6.txt` 分文件。
 
-产物由 GitHub Actions 每天 03:17 UTC 自动更新。
+产物由 GitHub Actions 每 12 小时（UTC 03:17 / 15:17）自动更新。
 
 ## 快速使用
 
