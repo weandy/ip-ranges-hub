@@ -7,7 +7,7 @@
   "cdn77": 494,
   "cloudflare": 22,
   "cloudfront": 464,
-  "cogent": 4546,
+  "cogent": 4547,
   "contabo": 573,
   "datacamp": 4179,
   "fastly": 21,
@@ -15,8 +15,8 @@
   "google": 1094,
   "google_cdn": 1404,
   "hetzner": 94,
-  "oracle": 4508,
+  "oracle": 4509,
   "ovh": 751,
   "scaleway": 28,
-  "vultr": 2678
+  "vultr": 2680
 }
