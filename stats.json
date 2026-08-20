@@ -1,5 +1,5 @@
 {
-  "akamai": 10108,
+  "akamai": 10109,
   "aws": 11003,
   "azure": 60579,
   "azure_frontdoor": 541,
@@ -9,14 +9,14 @@
   "cloudfront": 464,
   "cogent": 4486,
   "contabo": 573,
-  "datacamp": 4210,
+  "datacamp": 4208,
   "fastly": 21,
   "gcore": 994,
   "google": 1092,
   "google_cdn": 1405,
   "hetzner": 95,
-  "oracle": 4589,
-  "ovh": 765,
+  "oracle": 4590,
+  "ovh": 762,
   "scaleway": 28,
-  "vultr": 2966
+  "vultr": 2923
 }
