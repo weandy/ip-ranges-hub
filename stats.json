@@ -1,6 +1,6 @@
 {
-  "akamai": 10117,
-  "aws": 10940,
+  "akamai": 10116,
+  "aws": 10942,
   "azure": 60758,
   "azure_frontdoor": 541,
   "bunny": 48,
@@ -12,11 +12,11 @@
   "datacamp": 4222,
   "fastly": 21,
   "gcore": 978,
-  "google": 1092,
+  "google": 1098,
   "google_cdn": 1409,
   "hetzner": 95,
-  "oracle": 4633,
+  "oracle": 4635,
   "ovh": 763,
   "scaleway": 28,
-  "vultr": 2893
+  "vultr": 2940
 }
