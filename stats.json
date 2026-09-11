@@ -1,22 +1,22 @@
 {
   "akamai": 10028,
-  "aws": 11226,
+  "aws": 11210,
   "azure": 60805,
   "azure_frontdoor": 549,
   "bunny": 48,
   "cdn77": 496,
   "cloudflare": 22,
   "cloudfront": 464,
-  "cogent": 4590,
+  "cogent": 4593,
   "contabo": 573,
-  "datacamp": 4292,
+  "datacamp": 4303,
   "fastly": 21,
-  "gcore": 986,
+  "gcore": 987,
   "google": 1102,
-  "google_cdn": 1410,
+  "google_cdn": 1409,
   "hetzner": 96,
   "oracle": 4712,
   "ovh": 762,
   "scaleway": 28,
-  "vultr": 3079
+  "vultr": 3084
 }
