@@ -1,6 +1,6 @@
 {
   "akamai": 10025,
-  "aws": 11214,
+  "aws": 11213,
   "azure": 60805,
   "azure_frontdoor": 549,
   "bunny": 48,
@@ -18,5 +18,5 @@
   "oracle": 4723,
   "ovh": 762,
   "scaleway": 28,
-  "vultr": 2976
+  "vultr": 2982
 }
