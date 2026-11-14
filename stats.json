@@ -9,14 +9,14 @@
   "cloudfront": 510,
   "cogent": 4491,
   "contabo": 611,
-  "datacamp": 4539,
+  "datacamp": 4551,
   "fastly": 24,
   "gcore": 983,
   "google": 1153,
   "google_cdn": 1441,
   "hetzner": 99,
-  "oracle": 4847,
+  "oracle": 4877,
   "ovh": 847,
   "scaleway": 30,
-  "vultr": 2901
+  "vultr": 2925
 }
